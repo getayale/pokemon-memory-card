@@ -1,7 +1,13 @@
+import Header from "./components/Header";
+import PokemonCard from "./components/PokemonCard";
+import Scoreboard from "./components/Scoreboard";
+
 function App() {
   return (
     <div>
-      <h1>Pokémon Memory Card</h1>
+      <Header/>
+      <Scoreboard/>
+      <PokemonCard/>
     </div>
   );
 }
